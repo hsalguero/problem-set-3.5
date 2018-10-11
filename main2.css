@@ -1,0 +1,14 @@
+
+h1 {
+  font-family: Stencil Std, fantasy
+}
+h2{
+  font-family: Stencil Std, fantasy
+}
+p {
+  font-family: Arial;
+  font-size: 20px
+}
+body {
+  background-image: linear-gradient(white, lightgreen, green);
+}
