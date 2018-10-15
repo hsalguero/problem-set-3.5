@@ -12,3 +12,36 @@ p {
 body {
   background-image: linear-gradient(white, lightgreen, green);
 }
+p {
+  color:lightgreen
+}
+img {
+  border: 5px solid brown
+}
+ol {
+  color:darkgreen;
+}
+ol.spacious {
+  margin: 2em;
+}
+table.highlight {
+  background-color:brown
+}
+p.border {
+  border-left:5px solid brown;
+  border-right:5px solid brown;
+}
+#shadow {
+  text-shadow:
+       2px 2px 0 #000,
+     -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+#underlineheadings {
+  text-decoration: underline;
+}
+#imageshadow {
+  box-shadow: 10px 10px
+}
