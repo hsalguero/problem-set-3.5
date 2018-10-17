@@ -13,10 +13,16 @@ body {
   background-image: linear-gradient(white, lightgreen, green);
 }
 p {
-  color:lightgreen
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+
 }
 img {
-  border: 5px solid brown
+  border: 5px solid brown;
+  border-radius: 5px;
+  height: 300px;
+  width: 400px;
 }
 ol {
   color:darkgreen;
@@ -28,8 +34,10 @@ table.highlight {
   background-color:brown
 }
 p.border {
-  border-left:5px solid brown;
-  border-right:5px solid brown;
+  border-top:10px solid darkgreen;
+  border-right:10px solid darkred;
+  border-left:10px solid darkred;
+  border-bottom:10px solid darkgreen;
 }
 #shadow {
   text-shadow:
@@ -44,4 +52,21 @@ p.border {
 }
 #imageshadow {
   box-shadow: 10px 10px
+}
+* [lang^=en] {
+  background-color: brown
+}
+ol > li {
+    font-style: italic;
+    font-weight: bold;
+}
+h1 + p {
+  font-style: italic;
+}
+h2 ~ p {
+  font-style: normal;
+}
+ul > li {
+  font-style:italic;
+  font-weight:bold
 }
